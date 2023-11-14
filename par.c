@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include <stdio.h> //comando clrscr para limpar a tela 
+#include <stdio.h> //comando system para limpar a tela 
 
 int main(){
-    //vamos usar o comando clrscr(clear screen) para 
+    //vamos usar o comando system(/bin/clear) para 
     //Limpar a tela antes de executar os demais comandos
+    system("/bin/clear");
     
     int num; 
     printf("Digite um numero a lhe diremos se é par ou impar\n");
